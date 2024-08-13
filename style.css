@@ -1,0 +1,91 @@
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://www.huellascallejeras.com/wp-content/uploads/2021/08/banner-paginas-web-hhcc-perros-adultos-en-adopcion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover{
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+  .banner{
+    height: 200px; /* Ajusta la altura del banner para móviles */
+    background-size: cover; /* Asegura que la imagen cubra todo el banner */
+    background-position: center;
+  }
+
+}
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+@media(max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
